@@ -1,0 +1,156 @@
+.btn-success {
+    --bs-btn-color: #fff !important;
+    --bs-btn-bg: #1bbc9b !important;
+    --bs-btn-border-color: #1bbc9b !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-hover-bg: #1bbc9b !important;
+    --bs-btn-hover-border-color: #1bbc9b !important;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110 !important;
+    --bs-btn-active-color: #fff !important;
+    --bs-btn-active-bg: #1bbc9b !important;
+    --bs-btn-active-border-color: #1bbc9b !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+    --bs-btn-disabled-color: #fff !important;
+    --bs-btn-disabled-bg: #1bbc9b !important;
+    --bs-btn-disabled-border-color: #1bbc9b !important;
+}
+
+.text-overlay {
+    background: #1bbc9b;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.text-overlay>h6:first-child {
+    letter-spacing: 1.5px;
+}
+
+.text-overlay>h6:first-child>small {
+    letter-spacing: initial;
+}
+
+.image-card-text {
+    position: relative;
+}
+
+.text-overlay>div>h6:nth-child(2) {
+    letter-spacing: 1.5px;
+}
+
+.image-card-text-2 input::placeholder {
+    color: rgb(132, 128, 128);
+    font-size: 12px;
+    padding: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image-card-text-2 {
+    background-color: #1d1d1d;
+}
+
+.image-card-text-2  input{
+    background-color: #1d1d1d;
+    border: 2px solid white;
+    width: 250px;
+    margin-bottom: 12px;
+    border-radius: 0px;
+}
+
+.image-card-text-2 button{
+    width: 250px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.image-card-text-2 .trehan{
+    color: #1bbc9b;
+}
+
+.for-sale button{
+    font-size: 12px;
+}
+
+.for-sale p{
+    font-size: 12px;
+}
+
+.apartment-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.for-sale .search-now{
+    text-decoration: none !important;
+    color: #1bbc9b !important;
+}
+
+.for-sale{
+    border-right: 1px solid gray;
+}
+
+.hot-properties::after{
+    content: '';
+    width: 25px;
+    height: 4px;
+    background-color: #1bbc9b;
+    display: block;
+}
+
+/*  */
+.for-rent button{
+    font-size: 12px;
+}
+
+.for-rent p{
+    font-size: 12px;
+}
+
+.for-rent .search-now{
+    text-decoration: none !important;
+    color: #1bbc9b !important;
+}
+
+.information {
+    background-color: #2e2e2e;
+}
+
+.information h5{
+    width: 80px; 
+    height: 80px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span {
+    background: black !important;
+}
+
+.testimonial{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.information{
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+
+.properties-container{
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+
+.image-contact{
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+
+.location-property-details{
+    margin-top: 100px;
+    margin-bottom: 100px;  
+}
